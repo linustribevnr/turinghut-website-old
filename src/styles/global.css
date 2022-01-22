@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .navbar-link {
-  @apply text-white hover:text-gray-700 px-3 py-2 text-sm font-medium;
+  @apply text-white hover:text-gray px-3 py-2 text-sm font-medium;
 }

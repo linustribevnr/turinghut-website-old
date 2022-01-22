@@ -7,10 +7,10 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);  
   return (
     <div>
-        <nav className="bg-teal-600">
+        <nav className="bg-secondary">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
-                    <Link to="/" className=" hover:text-gray-700 text-white text-xl px-3 py-2 font-semibold flex-shrink-0">
+                    <Link to="/" className=" hover:text-gray text-white text-xl px-3 py-2 font-semibold flex-shrink-0">
                         TURING HUT
                     </Link>
                     <div className="flex items-center justify-self-end">
