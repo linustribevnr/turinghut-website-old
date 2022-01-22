@@ -78,7 +78,7 @@ export default function NavBar() {
             >
                 {(ref) => (
                     <div className="md:hidden" id="mobile-menu">
-                        <div ref={ref} className="px-2 pt-2 pb-3">
+                        <div ref={ref} className="px-2 pt-2 pb-3 sm:px-3">
                             <NavLinks alignVertical={true}/>
                         </div>
                     </div>
