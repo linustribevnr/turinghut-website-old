@@ -9,7 +9,7 @@ export default function NavLinks({ alignVertical }) {
                 About
             </Link>
             <Link to="/hall-of-fame" className="navbar-link">
-                Hall of Hame
+                Hall of Fame
             </Link>
             <Link to="/timeline" className="navbar-link">
                 Timeline
