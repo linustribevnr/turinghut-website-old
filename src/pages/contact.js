@@ -30,13 +30,15 @@ export default function Contact() {
             <h2 className='text-center md:text-left text-lg font-semibold m-5'>Follow Us</h2>
             <div className='flex justify-evenly items-center'>
               {socialMedia.map((d) => (
-                <div className='border-white border-2 rounded-full'>
-                  <svg className="h-5 m-2" fill="white" stroke="currentColor" viewBox="0 0 256 250">
-                    {d.svg.map((s) => (
-                      <path d={s}></path>
-                    ))}
-                  </svg>
-                </div>
+                <a href={d.link} target="_blank" rel="noopener noreferrer">
+                  <div className='border-2 hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-500 rounded-full'>
+                    <svg className="h-5 m-2" fill="white" stroke="currentColor" viewBox="0 0 256 250">
+                      {d.svg.map((s) => (
+                        <path d={s}></path>
+                      ))}
+                    </svg>
+                  </div>
+                </a>
               ))}
             </div>
           </div>
