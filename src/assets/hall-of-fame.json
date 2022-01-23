@@ -31,7 +31,6 @@
 
     ],
 
-
     "codechefRankers" :[
         {
             "name":"MoonKnight",
@@ -45,15 +44,14 @@
             "handle":"MoonKnight",
             "handleLink":"#",
             "highestRating":"2600",
-            "level":"7"
+            "level":"6"
         },
         {
             "name":"MoonKnight",
             "handle":"MoonKnight",
             "handleLink":"#",
             "highestRating":"1800",
-            "level":"3"
+            "level":"7"
         }
-
     ]
 }
