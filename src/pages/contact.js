@@ -6,7 +6,7 @@ export default function Contact() {
 
   return (
     <div className='h-90v flex  mx-auto items-end'>
-      <div class="h-85v mt-auto w-full p-3 bg-black rounded-t-3xl border-black border-t-4 text-white">
+      <div class="h-85v mt-auto w-full p-3 bg-footer rounded-t-3xl border-footer border-t-4 text-white">
         <h1 className='text-3xl font-semibold p-3 md:pl-9 m-3 text-center md:text-left'>Contact Us</h1>
         <div className='flex flex-wrap'>
           <div className='w-full md:w-8/12'>
