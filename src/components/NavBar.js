@@ -77,7 +77,7 @@ export default function NavBar() {
                 leaveTo="opacity-0 scale-95"
             >
                 {(ref) => (
-                    <div className="md:hidden" id="mobile-menu">
+                    <div className="z-50 md:hidden" id="mobile-menu">
                         <div ref={ref} className="px-2 pt-2 pb-3 sm:px-3">
                             <NavLinks alignVertical={true}/>
                         </div>
