@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.table-head{
+    @apply px-0 py-0 md:px-5 md:py-2 border border-white border-slate-100 text-white;
+}
+
+

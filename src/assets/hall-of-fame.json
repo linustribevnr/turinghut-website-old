@@ -1,0 +1,59 @@
+{
+    "codeforcesRankers" :[
+        {
+            "name":"MoonKnight",
+            "handle":"Moonknight",
+            "handleLink":"#",
+            "highestRating":"1800",
+            "level":"Pupil"
+        },
+        {
+            "name":"MoonKnight",
+            "handle":"MoonKnight",
+            "handleLink":"#",
+            "highestRating":"2600",
+            "level":"Expert"
+        },
+        {
+            "name":"MoonKnight",
+            "handle":"MoonKnight",
+            "handleLink":"#",
+            "highestRating":"1800",
+            "level":"Grandmaster"
+        },
+        {
+            "name":"MoonKnight",
+            "handle":"MoonKnight",
+            "handleLink":"#",
+            "highestRating":"1800",
+            "level":"Master"
+        }
+
+    ],
+
+
+    "codechefRankers" :[
+        {
+            "name":"MoonKnight",
+            "handle":"MoonKnight",
+            "handleLink":"#",
+            "highestRating":"1800",
+            "level":"5"
+        },
+        {
+            "name":"MoonKnight",
+            "handle":"MoonKnight",
+            "handleLink":"#",
+            "highestRating":"2600",
+            "level":"7"
+        },
+        {
+            "name":"MoonKnight",
+            "handle":"MoonKnight",
+            "handleLink":"#",
+            "highestRating":"1800",
+            "level":"3"
+        }
+
+    ]
+}
