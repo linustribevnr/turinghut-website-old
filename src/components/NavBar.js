@@ -7,7 +7,7 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);  
   return (
     <div>
-        <nav className="bg-secondary">
+        <nav className="bg-secondary w-full fixed">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-10v">
                     <Link to="/" className=" hover:text-gray text-white text-xl px-3 py-2 font-semibold flex-shrink-0">
@@ -77,7 +77,7 @@ export default function NavBar() {
                 leaveTo="opacity-0 scale-95"
             >
                 {(ref) => (
-                    <div className="z-50 md:hidden" id="mobile-menu">
+                    <div className="md:hidden" id="mobile-menu">
                         <div ref={ref} className="px-2 pt-2 pb-3 sm:px-3">
                             <NavLinks alignVertical={true}/>
                         </div>
