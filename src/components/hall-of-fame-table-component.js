@@ -3,9 +3,9 @@ import React from "react"
 export default function HallOfFameTableComponent({
   person: { name, handle, handleLink, highestRating, level },
 }) {
-  const colors = {
+  const codeforcescolors = {
     Pupil: "text-green-600",
-    Master: "text-amber-400",
+    Master: "text-amber-500",
     Grandmaster: "text-red-500",
     Expert: "text-blue-700",
     Specialist: "text-[#66CDAA]",
@@ -14,57 +14,46 @@ export default function HallOfFameTableComponent({
 
   const codechefColors = {
     2: "#008000",
-    3: "blue",
-    4: "purple",
-    5: "yellow",
+    3: "#0000ff",
+    4: "#800080",
+    5: "#facc15",
     6: "#FFA500",
     7: "#800000",
   }
 
-  const codechefColors2 = {
+  const codechefHandleColors = {
     2: "text-[#008000]",
-    3: "text-blue-500",
-    4: "text-purple-600",
-    5: "text-yellow-300",
+    3: "text-[#0000ff]",
+    4: "text-[#800080]",
+    5: "text-[#d7d11e]",
     6: "text-[#FFA500]",
     7: "text-[#800000]",
   }
-  return (
-    <tr>
-      {name ? (
-        <td className="px-1 py-0 sm:px-5 sm:py-1 border border-white border-slate-100 text-center text-white">
-          {name}
-        </td>
-      ) : null}
 
-      {colors[level] ? (
-        <td
-          className={`sm:px-5 sm:py-1 border border-white border-slate-100 text-center font-semibold ${colors[level]}`}
-        >
+  return (
+    <tr className="hover:bg-cyan-300 ">
+      {name ? <td className="table-data ">{name}</td> : null}
+
+      {codeforcescolors[level] ? (
+        <td className={`table-data font-semibold ${codeforcescolors[level]}`}>
           <a href={handleLink}> {handle} </a>
         </td>
       ) : (
         <td
-          className={`sm:px-5 sm:py-1 border border-white border-slate-100 text-center font-semibold ${codechefColors2[level]}`}
+          className={`table-data ${codechefHandleColors[level]} font-semibold`}
         >
           <a href={handleLink}>{handle}</a>
         </td>
       )}
 
-      {highestRating ? (
-        <td className="sm:px-5 sm:py-1 border border-white border-slate-100 text-center text-white">
-          {highestRating}
-        </td>
-      ) : null}
+      {highestRating ? <td className="table-data">{highestRating}</td> : null}
 
-      {colors[level] ? (
-        <td
-          className={`sm:px-3 sm:py-1 md:px-5 md:py-1 border border-white border-slate-100 text-center font-semibold ${colors[level]}`}
-        >
+      {codeforcescolors[level] ? (
+        <td className={`table-data font-semibold ${codeforcescolors[level]}`}>
           {level}
         </td>
       ) : (
-        <td className="sm:px-5 sm:py-1 border border-white border-slate-100 text-center text-white flex flex-row">
+        <td className="table-data flex flex-row">
           {level}
           <svg
             class="w-6 h-6"

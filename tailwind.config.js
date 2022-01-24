@@ -6,10 +6,10 @@ module.exports = {
         primary: "#064E3B",
         secondary: "#0D9488",
       },
-      height:{
-        "10v":"10vh",
-        "90v":"90vh",
-      }
+      height: {
+        "10v": "10vh",
+        "90v": "90vh",
+      },
     },
   },
   plugins: [],
