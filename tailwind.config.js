@@ -10,6 +10,7 @@ module.exports = {
       height: {
         "10v": "10vh",
         "90v": "90vh",
+        "70v": "70vh",
       }
     },
   },
