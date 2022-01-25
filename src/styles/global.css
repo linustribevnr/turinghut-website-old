@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .navbar-link {
-  @apply text-white hover:text-gray px-3 py-2 text-sm font-medium;
+  @apply text-white hover:text-gray-300 px-3 py-2 text-sm font-medium;
+}
+
+.section-heading {
+  @apply text-3xl font-semibold p-3 md:pl-9 m-3 text-center md:text-left;
 }

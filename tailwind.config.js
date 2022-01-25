@@ -5,7 +5,7 @@ module.exports = {
       colors: {
         primary: "#0F766E",
         secondary: "#0D9488",
-        gray: "#374151",
+        // gray: "#374151",
         footer: "black",
       },
       height: {
