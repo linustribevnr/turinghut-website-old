@@ -10,7 +10,7 @@ export default function App() {
     <Router>
       <NavBar />
       <Home />
-      <Team/>
+      <Team />
       <Contact />
     </Router>
   )
