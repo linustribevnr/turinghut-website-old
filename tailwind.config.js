@@ -5,7 +5,6 @@ module.exports = {
       colors: {
         primary: "#0F766E",
         secondary: "#0D9488",
-        // gray: "#374151",
         footer: "black",
       },
       height: {
@@ -13,6 +12,7 @@ module.exports = {
         "85v": "85vh",
         "90v": "90vh",
         "100v": "100vh",
+        0.8: "0.175rem",
       },
     },
   },

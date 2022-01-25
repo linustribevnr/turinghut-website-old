@@ -8,36 +8,32 @@ export default function Team() {
 
   return (
     <div className="min-h-90v w-full mt-5">
-      <h1 className="section-heading text-gray-600">The Team</h1>
-
       <div className="flex justify-center items-center">
-        <label
-          htmlFor="year"
-          className="block m-2 text-sm font-medium text-gray-900"
-        >
-          Select the year:{" "}
-        </label>
-        <select
-          id="year"
-          className="bg-gray-800 border border-gray-800 text-white text-sm rounded-lg block w-64 p-2.5"
-        >
-          {Object.keys(teamData)
-            .reverse()
-            .map((year, i) => (
-              <option key={i} onClick={() => setYear(year)}>
-                {year === "2018"
-                  ? "Founders"
-                  : year === "2019"
-                  ? "CoFounders"
-                  : year}
-              </option>
-            ))}
-        </select>
+        <h1 className="text-5xl p-3 m-5 my-18 text-center text-gray-600">
+          Team
+          <select id="year" className="p-1 m-1 bg-gray-300 rounded-md">
+            {Object.keys(teamData)
+              .reverse()
+              .map((year, i) => (
+                <option
+                  key={i}
+                  onClick={() => setYear(year)}
+                  className="text-sm"
+                >
+                  {year === "2018"
+                    ? "Founders"
+                    : year === "2019"
+                    ? "CoFounders"
+                    : year}
+                </option>
+              ))}
+          </select>
+        </h1>
       </div>
 
       <div className="flex flex-wrap justify-evenly">
         {teamData[year].map((member, i) => (
-          <div key={i} className="px-14 flex-shrink-0 mt-5 mx-auto max-w-sm">
+          <div key={i} className="flex-shrink-0 mt-5 w-72">
             <div className="relative flex flex-col items-center py-10">
               <img
                 className="mb-3 w-40 h-40 rounded-full shadow-lg object-cover"
