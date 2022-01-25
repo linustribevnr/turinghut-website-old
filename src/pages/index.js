@@ -12,6 +12,7 @@ export default function App() {
       <NavBar />
       <Home />
       <About />
+      <hr className="bg-gray-300  h-0.8" />
       <Team />
       <Contact />
     </Router>
