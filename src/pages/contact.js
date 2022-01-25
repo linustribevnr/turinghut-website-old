@@ -6,16 +6,16 @@ export default function Contact() {
 
   return (
     <div className='h-90v flex  mx-auto items-end'>
-      <div class="h-85v mt-auto w-full p-3 bg-footer rounded-t-3xl border-footer border-t-4 text-white">
+      <div className="h-85v mt-auto w-full p-3 bg-footer rounded-t-3xl border-footer border-t-4 text-white">
         <h1 className='text-3xl font-semibold p-3 md:pl-9 m-3 text-center md:text-left'>Contact Us</h1>
         <div className='flex flex-wrap'>
           <div className='w-full md:w-8/12'>
             {contactDetails.map((d) => (
-              <div className='flex justify-center items-center my-5'>
+              <div key={d.title} className='flex justify-center items-center my-5'>
                 <div className='w-2/6'>
                   <svg className="h-9 md:h-10 pr-6 md:pr-12 ml-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     {d.svg.map((s) => (
-                      <path stroke-width="2" d={s}></path>
+                      <path key={s} strokeWidth="2" d={s}></path>
                     ))}
                   </svg>            
                 </div>
@@ -30,11 +30,11 @@ export default function Contact() {
             <h2 className='text-center md:text-left text-lg font-semibold m-5'>Follow Us</h2>
             <div className='flex justify-evenly items-center'>
               {socialMedia.map((d) => (
-                <a href={d.link} target="_blank" rel="noopener noreferrer">
+                <a key={d.link} href={d.link} target="_blank" rel="noopener noreferrer">
                   <div className='border-2 hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-500 rounded-full'>
                     <svg className="h-5 m-2" fill="white" stroke="currentColor" viewBox="0 0 256 250">
                       {d.svg.map((s) => (
-                        <path d={s}></path>
+                        <path key={s} d={s}></path>
                       ))}
                     </svg>
                   </div>
