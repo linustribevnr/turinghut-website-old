@@ -4,7 +4,7 @@ export default function ArchiveComponent({
   contest: { contestName, year, link },
 }) {
   return (
-    <tr>
+    <tr className="hover:bg-white bg-cyan-200">
       {contestName ? (
         <td className="table-data font-bold">{contestName}</td>
       ) : null}

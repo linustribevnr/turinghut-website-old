@@ -1,10 +1,10 @@
 import React from "react"
 import data from "../assets/hall-of-fame.json"
 import HallOfFameTableComponent from "../components/hall-of-fame-table-component"
-const codechefData = data.codechefRankers
-const codeforcesData = data.codeforcesRankers
 
 export default function HallOfFame() {
+  const codechefData = data.codechefRankers
+  const codeforcesData = data.codeforcesRankers
   return (
     <div className=" h-90v ">
       <h1 className="text-center font-bold text-3xl mt-5 ">Hall of fame</h1>

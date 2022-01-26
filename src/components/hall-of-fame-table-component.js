@@ -31,8 +31,8 @@ export default function HallOfFameTableComponent({
   }
 
   return (
-    <tr className="hover:bg-cyan-300 ">
-      {name ? <td className="table-data ">{name}</td> : null}
+    <tr className="hover:bg-white bg-cyan-200">
+      {name ? <td className="table-data">{name}</td> : null}
 
       {codeforcescolors[level] ? (
         <td className={`table-data font-semibold ${codeforcescolors[level]}`}>

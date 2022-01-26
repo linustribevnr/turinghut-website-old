@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .table-head{
-    @apply px-5 py-2 border border-gray-300 border-x-gray-300 justify-start bg-cyan-500 ;
+    @apply px-5 py-2 border border-gray-300 border-x-gray-300 text-left bg-cyan-500 ;
 }
 .table-data{
-    @apply px-5 py-1 border border-gray-400 text-center border-x-gray-300  bg-cyan-200 ;
+    @apply px-5 py-1 border border-gray-400 border-x-gray-300 ;
 }
 
 
