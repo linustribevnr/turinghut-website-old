@@ -5,6 +5,7 @@ import Home from "./home"
 import Contact from "./contact"
 import Team from "./team"
 import About from "./about"
+import Timeline from "./timeline"
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Home />
       <About />
       <hr className="bg-gray-300  h-0.8" />
+      <Timeline />
       <Team />
       <Contact />
     </Router>

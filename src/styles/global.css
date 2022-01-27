@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "timeline.css";
 
 .navbar-link {
   @apply text-white hover:text-gray-300 px-3 py-2 text-sm font-medium;
