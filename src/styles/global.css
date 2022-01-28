@@ -2,11 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "timeline.css";
+
+.navbar-link {
+  @apply text-white hover:text-gray-300 px-3 py-2 text-sm font-medium;
+}
+
+.section-heading {
+  @apply text-3xl font-semibold p-3 md:pl-9 m-3 text-center md:text-left;
+}
+
 .table-head{
     @apply px-5 py-2 border border-gray-300 border-x-gray-300 text-left bg-cyan-500 ;
 }
 .table-data{
     @apply px-5 py-1 border border-gray-400 border-x-gray-300 ;
 }
-
-

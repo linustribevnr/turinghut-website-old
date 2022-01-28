@@ -18,7 +18,5 @@ Contains the main components of the website:
 Contains the utility components that can be reused in multiple pages
 
 - NavBar
-- TextBox
-- Table
 
 The design will be updated based on need.
