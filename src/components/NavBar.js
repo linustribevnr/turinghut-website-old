@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { Link } from "react-router-dom"
 import { Transition } from "@headlessui/react"
 import NavLinks from "./NavLinks"
 
@@ -10,12 +9,12 @@ export default function NavBar() {
       <nav className="bg-secondary w-full fixed z-50 shadow-primary shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-10v">
-            <Link
-              to="/"
+            <a
+              href="/"
               className=" hover:text-gray text-white text-xl px-3 py-2 font-semibold flex-shrink-0"
             >
               TURING HUT
-            </Link>
+            </a>
             <div className="flex items-center justify-self-end">
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
