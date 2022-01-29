@@ -6,8 +6,8 @@ import Contact from "./contact"
 import Team from "./team"
 import About from "./about"
 import Timeline from "./timeline"
-import HallOfFame from './hall-of-fame'
-import Archive from './archive'
+import HallOfFame from "./hall-of-fame"
+import Archive from "./archive"
 
 export default function App() {
   return (
@@ -15,9 +15,9 @@ export default function App() {
       <NavBar />
       <Home />
       <About />
-      <HallOfFame/>
+      <HallOfFame />
       <Timeline />
-      <Archive/>
+      <Archive />
       <Team />
       <Contact />
     </Router>

@@ -14,7 +14,10 @@ export default function Team() {
         </h1>
         <div className="text-center">
           Year:
-          <select id="year" className="text-sm px-5 py-2 m-1 bg-gray-800 text-white rounded-md">
+          <select
+            id="year"
+            className="text-sm px-5 py-2 m-1 bg-gray-800 text-white rounded-md"
+          >
             {Object.keys(teamData)
               .reverse()
               .map((year, i) => (

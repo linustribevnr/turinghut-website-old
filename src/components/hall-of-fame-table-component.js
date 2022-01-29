@@ -36,7 +36,10 @@ export default function HallOfFameTableComponent({
 
       {codeforcescolors[level] ? (
         <td className={`table-data font-semibold ${codeforcescolors[level]}`}>
-          <a href={handleLink} target="_blank" rel="noopener noreferrer"> {handle} </a>
+          <a href={handleLink} target="_blank" rel="noopener noreferrer">
+            {" "}
+            {handle}{" "}
+          </a>
         </td>
       ) : (
         <td

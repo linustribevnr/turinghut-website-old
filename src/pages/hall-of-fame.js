@@ -7,12 +7,16 @@ export default function HallOfFame() {
   const codeforcesData = data.codeforcesRankers
   return (
     <div className=" min-h-90v">
-      <h1 className="text-4xl md:text-5xl p-3 m-5 my-18 text-center text-gray-600">Hall of Fame</h1>
+      <h1 className="text-4xl md:text-5xl p-3 m-5 my-18 text-center text-gray-600">
+        Hall of Fame
+      </h1>
 
       {/* codeforces table */}
 
       <div className="grid grid-cols-1 lg:grid-cols-1 lg:mx-20 mx-5 overflow-x-auto ">
-        <h2 className="font-semibold text-2xl md:text-3xl  text-primary my-5">CodeForces</h2>
+        <h2 className="font-semibold text-2xl md:text-3xl  text-primary my-5">
+          CodeForces
+        </h2>
         <table className=" table-auto border-collapse border border-gray-300">
           <thead>
             <tr>
@@ -34,7 +38,9 @@ export default function HallOfFame() {
       {/* codechef table */}
 
       <div className="grid grid-cols-1 lg:grid-cols-1 lg:mx-20 mx-5 overflow-x-auto my-10">
-        <h2 className="font-semibold text-2xl md:text-3xl text-primary my-5">CodeChef</h2>
+        <h2 className="font-semibold text-2xl md:text-3xl text-primary my-5">
+          CodeChef
+        </h2>
         <table className="table-auto border border-collapse border-gray-300">
           <thead>
             <tr>

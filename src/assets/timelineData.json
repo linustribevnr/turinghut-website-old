@@ -1,40 +1,39 @@
 {
-    "timelineData": [
-        {
-            "title": "#include Python ICPC",
-            "year": 2019,
-            "image": ""
-        },
-        {
-            "title": "CodeFrenzy",
-            "year": 2017,
-            "image": ""
-        },
-        {
-            "title": "d0nt_$leep",
-            "year": 2018,
-            "image": ""
-        },
-        {
-            "title": "Turing Cup",
-            "year": 2020,
-            "image": ""
-        },
-        {
-            "title": "Dish a thon",
-            "year": 2018,
-            "image": ""
-        },
-        {
-            "title": "Faculty Bootcamp",
-            "year": 2019,
-            "image": ""
-        },
-        {
-            "title": "Turing Cup",
-            "year": 2019,
-            "image": ""
-        }
-    ]
-  }
-  
+  "timelineData": [
+    {
+      "title": "#include Python ICPC",
+      "year": 2019,
+      "image": ""
+    },
+    {
+      "title": "CodeFrenzy",
+      "year": 2017,
+      "image": ""
+    },
+    {
+      "title": "d0nt_$leep",
+      "year": 2018,
+      "image": ""
+    },
+    {
+      "title": "Turing Cup",
+      "year": 2020,
+      "image": ""
+    },
+    {
+      "title": "Dish a thon",
+      "year": 2018,
+      "image": ""
+    },
+    {
+      "title": "Faculty Bootcamp",
+      "year": 2019,
+      "image": ""
+    },
+    {
+      "title": "Turing Cup",
+      "year": 2019,
+      "image": ""
+    }
+  ]
+}
