@@ -1,0 +1,131 @@
+From 3f0ef366bdf6c8ad974537ff9ef002289e2e9508 Mon Sep 17 00:00:00 2001
+From: "pinnamanivenkat" <pinnamanivenkat@gmail.com>
+Date: Sat, 29 Jan 2022 19:48:28 +0530
+Subject: [PATCH] deployment test
+
+---
+ package.json               |  3 +--
+ src/components/NavBar.js   |  7 +++----
+ src/components/NavLinks.js | 25 ++++++++++++-------------
+ src/pages/index.js         |  6 ++----
+ 4 files changed, 18 insertions(+), 23 deletions(-)
+
+diff --git a/package.json b/package.json
+index 92d8317..c08ff50 100644
+--- a/package.json
++++ b/package.json
+@@ -17,8 +17,7 @@
+     "@headlessui/react": "^1.4.3",
+     "gatsby": "^4.5.4",
+     "react": "^17.0.1",
+-    "react-dom": "^17.0.1",
+-    "react-router-dom": "^6.2.1"
++    "react-dom": "^17.0.1"
+   },
+   "devDependencies": {
+     "autoprefixer": "^10.4.2",
+diff --git a/src/components/NavBar.js b/src/components/NavBar.js
+index 055876b..417e30b 100644
+--- a/src/components/NavBar.js
++++ b/src/components/NavBar.js
+@@ -1,5 +1,4 @@
+ import React, { useState } from "react"
+-import { Link } from "react-router-dom"
+ import { Transition } from "@headlessui/react"
+ import NavLinks from "./NavLinks"
+ 
+@@ -10,12 +9,12 @@ export default function NavBar() {
+       <nav className="bg-secondary w-full fixed z-50 shadow-primary shadow-sm">
+         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+           <div className="flex items-center justify-between h-10v">
+-            <Link
+-              to="/"
++            <a
++              href="/"
+               className=" hover:text-gray text-white text-xl px-3 py-2 font-semibold flex-shrink-0"
+             >
+               TURING HUT
+-            </Link>
++            </a>
+             <div className="flex items-center justify-self-end">
+               <div className="hidden md:block">
+                 <div className="ml-10 flex items-baseline space-x-4">
+diff --git a/src/components/NavLinks.js b/src/components/NavLinks.js
+index 1747f8b..024251f 100644
+--- a/src/components/NavLinks.js
++++ b/src/components/NavLinks.js
+@@ -1,28 +1,27 @@
+ import React from "react"
+-import { Link } from "react-router-dom"
+ import "../styles/global.css"
+ 
+ export default function NavLinks({ alignVertical }) {
+   return (
+     <div className={"flex" + (alignVertical && " flex-col space-y-1")}>
+-      <Link to="/about" className="navbar-link">
++      <a href="/about" className="navbar-link">
+         About
+-      </Link>
+-      <Link to="/hall-of-fame" className="navbar-link">
++      </a>
++      <a href="/hall-of-fame" className="navbar-link">
+         Hall of Fame
+-      </Link>
+-      <Link to="/timeline" className="navbar-link">
++      </a>
++      <a href="/timeline" className="navbar-link">
+         Timeline
+-      </Link>
+-      <Link to="/turing-cup" className="navbar-link">
++      </a>
++      <a href="/turing-cup" className="navbar-link">
+         Turing Cup
+-      </Link>
+-      <Link to="/archive" className="navbar-link">
++      </a>
++      <a href="/archive" className="navbar-link">
+         Archive
+-      </Link>
+-      <Link to="/contact" className="navbar-link">
++      </a>
++      <a href="/contact" className="navbar-link">
+         Contact
+-      </Link>
++      </a>
+     </div>
+   )
+ }
+diff --git a/src/pages/index.js b/src/pages/index.js
+index 2e06c40..b8c46fd 100644
+--- a/src/pages/index.js
++++ b/src/pages/index.js
+@@ -1,17 +1,15 @@
+ import React from "react"
+ import NavBar from "../components/NavBar"
+-import { BrowserRouter as Router } from "react-router-dom"
+ import Home from "./home"
+ import Contact from "./contact"
+ import Team from "./team"
+ import About from "./about"
+ import Timeline from "./timeline"
+ import HallOfFame from "./hall-of-fame"
+-import Archive from "./archive"
+ 
+ export default function App() {
+   return (
+-    <Router>
++    <div>
+       <NavBar />
+       <Home />
+       <About />
+@@ -21,6 +19,6 @@ export default function App() {
+       {/* <Archive /> */}
+       <Team />
+       <Contact />
+-    </Router>
++    </div>
+   )
+ }
+-- 
+2.34.1
+
