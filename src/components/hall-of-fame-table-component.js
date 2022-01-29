@@ -31,12 +31,15 @@ export default function HallOfFameTableComponent({
   }
 
   return (
-    <tr className="hover:bg-white bg-cyan-200">
+    <tr className="hover:bg-teal-100 bg-white">
       {name ? <td className="table-data">{name}</td> : null}
 
       {codeforcescolors[level] ? (
         <td className={`table-data font-semibold ${codeforcescolors[level]}`}>
-          <a href={handleLink}> {handle} </a>
+          <a href={handleLink} target="_blank" rel="noopener noreferrer">
+            {" "}
+            {handle}{" "}
+          </a>
         </td>
       ) : (
         <td

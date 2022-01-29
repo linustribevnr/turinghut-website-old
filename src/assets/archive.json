@@ -1,34 +1,34 @@
 {
-    "contests":[
-        {
-            "contestName":"Convergence coding contest",
-            "year":"2021",
-            "link":"https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
-        },
-         {
-            "contestName":"Convergence coding contest",
-            "year":"2021",
-            "link":"https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
-        },
-         {
-            "contestName":"Convergence coding contest",
-            "year":"2021",
-            "link":"https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
-        },
-         {
-            "contestName":"Convergence coding contest",
-            "year":"2021",
-            "link":"https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
-        },
-         {
-            "contestName":"Convergence coding contest",
-            "year":"2021",
-            "link":"https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
-        },
-         {
-            "contestName":"Convergence coding contest",
-            "year":"2021",
-            "link":"https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
-        }
-    ]
+  "contests": [
+    {
+      "contestName": "Convergence coding contest",
+      "year": "2021",
+      "link": "https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
+    },
+    {
+      "contestName": "Convergence coding contest",
+      "year": "2021",
+      "link": "https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
+    },
+    {
+      "contestName": "Convergence coding contest",
+      "year": "2021",
+      "link": "https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
+    },
+    {
+      "contestName": "Convergence coding contest",
+      "year": "2021",
+      "link": "https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
+    },
+    {
+      "contestName": "Convergence coding contest",
+      "year": "2021",
+      "link": "https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
+    },
+    {
+      "contestName": "Convergence coding contest",
+      "year": "2021",
+      "link": "https://www.hackerrank.com/contests/convergence-practice-contest/challenges"
+    }
+  ]
 }

@@ -7,11 +7,17 @@ export default function Team() {
   const [year, setYear] = useState(Object.keys(teamData).reverse()[0])
 
   return (
-    <div className="min-h-90v w-full mt-5">
-      <div className="flex justify-center items-center">
-        <h1 className="text-5xl p-3 m-5 my-18 text-center text-gray-600">
-          Team
-          <select id="year" className="p-1 m-1 bg-gray-300 rounded-md">
+    <div className="min-h-90v w-full">
+      <div className="mx-auto">
+        <h1 className="text-5xl p-3 text-center text-gray-600">
+          <div className="my-2">The Team</div>
+        </h1>
+        <div className="text-center">
+          Year:
+          <select
+            id="year"
+            className="text-sm px-5 py-2 m-1 bg-gray-800 text-white rounded-md"
+          >
             {Object.keys(teamData)
               .reverse()
               .map((year, i) => (
@@ -28,7 +34,7 @@ export default function Team() {
                 </option>
               ))}
           </select>
-        </h1>
+        </div>
       </div>
 
       <div className="flex flex-wrap justify-evenly">

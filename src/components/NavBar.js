@@ -7,7 +7,7 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <div>
-      <nav className="bg-secondary w-full fixed z-50">
+      <nav className="bg-secondary w-full fixed z-50 shadow-primary shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-10v">
             <Link
