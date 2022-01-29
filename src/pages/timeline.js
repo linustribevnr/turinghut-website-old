@@ -4,7 +4,10 @@ import TImelines from "../assets/timelineData.json"
 export default function timeline() {
   return (
     <div className="lg:px-64 md:px-20 sm:px-10 bg-teal-600">
-      <h1 className="text-white text-5xl py-5 text-center">Timeline</h1>
+      <h1 className="text-4xl md:text-5xl p-3 m-5 my-18 pt-10 text-center text-white">
+        Timeline
+      </h1>
+      {/* <h1 className="text-white text-5xl py-5 text-center">Timeline</h1> */}
       <div className="timeline">
         {TImelines.timelineData
           .sort((a, b) => b.year - a.year)
@@ -12,9 +15,9 @@ export default function timeline() {
             <div className="timeline-row" key={i}>
               <div className="timeline-time">{timeline.year}</div>
               <div className="timeline-content">
-                <div class="w-11/12 rounded-lg shadow-md border-gray-700">
+                <div className="w-11/12 rounded-lg shadow-md border-gray-700">
                   <img
-                    class="rounded-t-lg pt-5"
+                    className="rounded-t-lg pt-5"
                     src={
                       timeline.image === ""
                         ? "https://flowbite.com/docs/images/blog/image-1.jpg"
