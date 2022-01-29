@@ -15,9 +15,10 @@ export default function App() {
       <NavBar />
       <Home />
       <About />
+      <hr className="bg-gray-300  h-0.8" />
       <HallOfFame />
       <Timeline />
-      <Archive />
+      {/* <Archive /> */}
       <Team />
       <Contact />
     </Router>

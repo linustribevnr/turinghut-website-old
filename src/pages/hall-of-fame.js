@@ -29,7 +29,7 @@ export default function HallOfFame() {
 
           <tbody>
             {codeforcesData.map((member, i) => (
-              <HallOfFameTableComponent person={member} />
+              <HallOfFameTableComponent person={member} key={i} />
             ))}
           </tbody>
         </table>
@@ -53,7 +53,7 @@ export default function HallOfFame() {
 
           <tbody>
             {codechefData.map((member, i) => (
-              <HallOfFameTableComponent person={member} />
+              <HallOfFameTableComponent person={member} key={i} />
             ))}
           </tbody>
         </table>
