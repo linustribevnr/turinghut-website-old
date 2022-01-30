@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Home() {
+export default function Landing() {
   return (
     <div>
       <div className="flex flex-wrap justify-evenly items-center h-100v p-5  bg-secondary text-white">

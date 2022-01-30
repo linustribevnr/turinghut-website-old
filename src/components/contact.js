@@ -5,7 +5,7 @@ export default function Contact() {
   const { contactDetails, socialMedia } = data
 
   return (
-    <div className="h-100v flex  mx-auto items-end">
+    <div className="h-90v flex  mx-auto items-end">
       <div className="h-85v mt-auto w-full p-3 bg-footer rounded-t-3xl border-footer border-t-4 text-white">
         <h1 className="text-3xl font-semibold p-3 md:pl-9 m-3 text-center md:text-left">
           Contact Us
