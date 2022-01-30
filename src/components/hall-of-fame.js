@@ -6,12 +6,12 @@ export default function HallOfFame() {
   const codechefData = data.codechefRankers
   const codeforcesData = data.codeforcesRankers
   return (
-    <div>
+    <div className="pt-12">
       <h1 className="text-4xl md:text-5xl p-3 m-5 my-18 text-center text-gray-600">
         Hall of Fame
       </h1>
 
-      <div className="my-10 grid grid-cols-1 lg:grid-cols-1 lg:mx-20 mx-5 overflow-x-auto ">
+      <div className="my-10 grid grid-cols-1 lg:grid-cols-1 mx-5 lg:mx-20 overflow-x-auto ">
         <h2 className="font-semibold text-2xl md:text-3xl  text-gray-800 my-5">
           CodeForces
         </h2>

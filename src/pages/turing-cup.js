@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div>
       <NavBar />
-      <p className="mt-24 text-center">Work in Progress!</p>
+      {/* <p className="pt-12 mt-24 text-center">Work in Progress!</p> */}
     </div>
   )
 }
