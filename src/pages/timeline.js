@@ -47,14 +47,14 @@ export default function Timeline() {
             class="px-4 py-2 font-semibold text-sm bg-black text-white rounded-none shadow-sm"
             onClick={toggleReadMore}
           >
-            Read More
+            Show More
           </button>
         ) : (
           <button
             class="px-4 py-2 font-semibold text-sm bg-black text-white rounded-none shadow-sm"
             onClick={toggleReadMore}
           >
-            Read Less
+            Show Less
           </button>
         )}
       </div>

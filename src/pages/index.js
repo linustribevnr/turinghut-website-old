@@ -14,7 +14,7 @@ export default function App() {
       <Home />
       <About />
       <hr className="bg-gray-300  h-0.8" />
-      <HallOfFame />
+      {/* <HallOfFame /> */}
       <Timeline />
       {/* <Archive /> */}
       <Team />
