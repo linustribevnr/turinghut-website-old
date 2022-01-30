@@ -31,7 +31,7 @@ export default function HallOfFame() {
             ))}
           </tbody>
         </table>
-      </div> 
+      </div>
 
       <div className="my-10 grid grid-cols-1 lg:grid-cols-1 lg:mx-20 mx-5 overflow-x-auto ">
         <h2 className="font-semibold text-2xl md:text-3xl  text-gray-800 my-5">

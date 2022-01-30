@@ -13,7 +13,9 @@ export default function ArchiveComponent({
 
       {link ? (
         <td className="table-data underline">
-          <a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            {link}
+          </a>
         </td>
       ) : null}
     </tr>
