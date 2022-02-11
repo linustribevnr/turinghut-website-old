@@ -15,7 +15,7 @@ export default function Contact() {
             {contactDetails.map(d => (
               <div
                 key={d.title}
-                className="flex justify-center items-center my-5"
+                className="flex justify-center items-center mt-5"
               >
                 <div className="w-2/6">
                   <svg
@@ -37,16 +37,17 @@ export default function Contact() {
             ))}
           </div>
           <div className="w-8/12 mx-auto md:w-3/12 md:mt-auto md:mr-auto">
-            <h2 className="text-center md:text-left text-lg font-semibold m-5">
+            <h2 className="text-center md:text-left text-lg font-semibold my-5">
               Follow Us
             </h2>
-            <div className="flex justify-evenly items-center">
+            <div className="flex justify-center md:justify-start items-center">
               {socialMedia.map(d => (
                 <a
                   key={d.link}
                   href={d.link}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="mx-2 md:mr-5"
                 >
                   <div className="border-2 hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-500 rounded-full">
                     <svg

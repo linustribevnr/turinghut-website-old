@@ -7,13 +7,13 @@ export default function Team() {
   const [year, setYear] = useState(Object.keys(teamData).reverse()[0])
 
   return (
-    <div className="min-h-90v w-full">
+    <div className="w-full">
       <div className="mx-auto">
         <h1 className="text-5xl p-3 text-center text-gray-600">
           <div className="my-2">The Team</div>
         </h1>
         <div className="text-center">
-          Year:
+          Filter:
           <select
             id="year"
             className="text-sm px-5 py-2 m-1 bg-gray-800 text-white rounded-md"
