@@ -1,4 +1,4 @@
-blockquote {
+/* blockquote {
     background-color: transparent;
     border: solid 2px #757575;
     display: inline-block;
@@ -11,23 +11,28 @@ blockquote {
 blockquote:before {
     background-color: #fff;
     bottom: -7%;
-    content: "";
+    content: "''";
     left: 0;
     position: absolute;
     right: 0;
     top: -7%;
     z-index: -5;
+    overflow: hidden;
     transform: rotate(-15deg) skew(5deg);
 }
 
 blockquote > * {
     position: relative;
     z-index: 10;
-}
+} */
 
 .flex-about, .flex-about-reverse {
     display: flex;
     justify-content: center;
+}
+
+.flex-about-reverse img {
+    text-align:end;
 }
 
 @media (max-width: 840px) {

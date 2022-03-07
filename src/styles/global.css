@@ -5,6 +5,12 @@
 @import "timeline.css";
 @import "blockquote.css";
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .navbar-link {
   @apply text-white hover:text-gray-300 px-3 py-2 text-sm font-medium;
 }
