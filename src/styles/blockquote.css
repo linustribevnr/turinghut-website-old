@@ -1,0 +1,41 @@
+blockquote {
+    background-color: transparent;
+    border: solid 2px #757575;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+    z-index: -1;
+}
+
+blockquote:before {
+    background-color: #fff;
+    bottom: -7%;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -7%;
+    z-index: -5;
+    transform: rotate(-15deg) skew(5deg);
+}
+
+blockquote > * {
+    position: relative;
+    z-index: 10;
+}
+
+.flex-about, .flex-about-reverse {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 840px) {
+   .flex-about {
+       flex-direction: column;
+   }
+
+   .flex-about-reverse {
+    flex-direction: column-reverse;
+    }
+}

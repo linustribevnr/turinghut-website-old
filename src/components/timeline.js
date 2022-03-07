@@ -14,7 +14,7 @@ export default function Timeline() {
   }
 
   return (
-    <div className="lg:px-64 md:px-20 sm:px-10 bg-teal-600">
+    <div className="lg:px-64 md:px-20 sm:px-10 bg-teal-600 pb-2">
       <h1 className="text-white text-5xl py-5 text-center">Timeline</h1>
       <div className="timeline">
         {timeline.map((timeline, i) => (
@@ -23,7 +23,7 @@ export default function Timeline() {
             <div className="timeline-content">
               <div className="w-11/12 rounded-lg shadow-md border-gray-700">
                 <img
-                  className="rounded-t-lg pt-5"
+                  className="rounded-t-lg pt-5 object-cover"
                   src={
                     timeline.image === ""
                       ? "https://flowbite.com/docs/images/blog/image-1.jpg"
@@ -41,23 +41,27 @@ export default function Timeline() {
           </div>
         ))}
       </div>
-      <div className="flex justify-center pb-5">
-        {readTImeline ? (
-          <button
-            class="px-4 py-2 font-semibold text-sm bg-black text-white rounded-none shadow-sm"
-            onClick={toggleReadMore}
-          >
-            Show More
-          </button>
-        ) : (
-          <button
-            class="px-4 py-2 font-semibold text-sm bg-black text-white rounded-none shadow-sm"
-            onClick={toggleReadMore}
-          >
-            Show Less
-          </button>
-        )}
-      </div>
+      {timelineData.length > 4 ? (
+        <div className="flex justify-center pb-5">
+          {readTImeline ? (
+            <button
+              className="px-4 py-2 font-semibold text-sm bg-black text-white rounded-none shadow-sm"
+              onClick={toggleReadMore}
+            >
+              Show More
+            </button>
+          ) : (
+            <button
+              className="px-4 py-2 font-semibold text-sm bg-black text-white rounded-none shadow-sm"
+              onClick={toggleReadMore}
+            >
+              Show Less
+            </button>
+          )}
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   )
 }

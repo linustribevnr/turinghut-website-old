@@ -16,8 +16,8 @@ export default function HallOfFameTableComponent({
     2: "#008000",
     3: "#0000ff",
     4: "#800080",
-    5: "#facc15",
-    6: "#FFA500",
+    5: "#FFA500",
+    6: "#facc15",
     7: "#800000",
   }
 
@@ -25,8 +25,8 @@ export default function HallOfFameTableComponent({
     2: "text-[#008000]",
     3: "text-[#0000ff]",
     4: "text-[#800080]",
-    5: "text-[#d7d11e]",
-    6: "text-[#FFA500]",
+    5: "text-[#FFA500]",
+    6: "text-[#d7d11e]",
     7: "text-[#800000]",
   }
 

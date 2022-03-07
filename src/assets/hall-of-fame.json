@@ -1,56 +1,83 @@
 {
-  "codeforcesRankers": [
-    {
-      "name": "MoonKnight",
-      "handle": "Moonknight",
-      "handleLink": "#",
-      "highestRating": "1800",
-      "level": "Pupil"
-    },
-    {
-      "name": "MoonKnight",
-      "handle": "MoonKnight",
-      "handleLink": "#",
-      "highestRating": "2600",
-      "level": "Expert"
-    },
-    {
-      "name": "MoonKnight",
-      "handle": "MoonKnight",
-      "handleLink": "#",
-      "highestRating": "1800",
-      "level": "Grandmaster"
-    },
-    {
-      "name": "MoonKnight",
-      "handle": "MoonKnight",
-      "handleLink": "#",
-      "highestRating": "1800",
-      "level": "Master"
-    }
-  ],
-
   "codechefRankers": [
     {
-      "name": "MoonKnight",
-      "handle": "MoonKnight",
-      "handleLink": "#",
-      "highestRating": "1800",
+      "name": "Abhigyan",
+      "handle": "the_pythor",
+      "handleLink": "https://www.codechef.com/users/the_pythor",
+      "highestRating": "2021",
       "level": "5"
     },
     {
-      "name": "MoonKnight",
-      "handle": "MoonKnight",
-      "handleLink": "#",
-      "highestRating": "2600",
-      "level": "6"
+      "name": "Gnana Deepak",
+      "handle": "gnana_19",
+      "handleLink": "https://www.codechef.com/users/gnana_19",
+      "highestRating": "2070",
+      "level": "5"
     },
     {
-      "name": "MoonKnight",
-      "handle": "MoonKnight",
-      "handleLink": "#",
+      "name": "Kovid",
+      "handle": "kovidsunny",
+      "handleLink": "https://www.codechef.com/users/kovidsunny",
+      "highestRating": "2170",
+      "level": "5"
+    },
+    {
+      "name": "Shoeb",
+      "handle": "soheb17",
+      "handleLink": "https://www.codechef.com/users/soheb17",
+      "highestRating": "2004",
+      "level": "5"
+    },
+    {
+      "name": "Balaji",
+      "handle": "bala_1428",
+      "handleLink": "https://www.codechef.com/users/bala_1428",
+      "highestRating": "2072",
+      "level": "5"
+    }
+  ],
+  "codeforcesRankers": [
+    {
+      "name": "Abhigyan",
+      "handle": "the_pythor",
+      "handleLink": "https://www.codeforces.com/profile/the_pythor",
       "highestRating": "1800",
-      "level": "7"
+      "level": "Expert"
+    },
+    {
+      "name": "Gnana Deepak",
+      "handle": "gnana_19",
+      "handleLink": "https://www.codeforces.com/profile/gnana_19",
+      "highestRating": "1759",
+      "level": "Expert"
+    },
+    {
+      "name": "Kovid",
+      "handle": "kovidsunny",
+      "handleLink": "https://www.codeforces.com/profile/kovidsunny",
+      "highestRating": "1666",
+      "level": "Expert"
+    },
+    {
+      "name": "Shoeb",
+      "handle": "skyscraper",
+      "handleLink": "https://www.codeforces.com/profile/skyscraper",
+      "highestRating": "1648",
+      "level": "Expert"
+    },
+    {
+      "name": "Balaji",
+      "handle": "devil_1428",
+      "handleLink": "https://www.codeforces.com/profile/devil_1428",
+      "highestRating": "1637",
+      "level": "Expert"
+    },
+    {
+      "name": "Nimmi Agarwal",
+      "handle": "nimmi_001",
+      "handleLink": "https://www.codeforces.com/profile/nimmi_001",
+      "highestRating": "1620",
+      "level": "Expert"
     }
   ]
 }
