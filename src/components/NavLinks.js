@@ -7,7 +7,7 @@ export default function NavLinks({ alignVertical }) {
       <a href="/hall-of-fame" className="navbar-link">
         Hall of Fame
       </a>
-      <a href="/turing-cup" className="navbar-link">
+      <a href="/turing_cup.pdf" className="navbar-link" target="_blank">
         Turing Cup
       </a>
       <a href="/archive" className="navbar-link">
