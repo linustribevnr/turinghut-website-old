@@ -5,27 +5,28 @@ import "../styles/global.css"
 export default function Team() {
   const { teamData } = data
   const [year, setYear] = useState(Object.keys(teamData).reverse()[0])
+  const [team, setTeam] = useState(teamData["2022"])
 
   return (
     <div className="w-full">
       <div className="mx-auto">
         <h1 className="text-5xl p-3 text-center text-gray-600">
-          <div className="my-2">The Team</div>
+          <div className="my-2">Team {year}</div>
         </h1>
         <div className="text-center">
           Filter:
           <select
             id="year"
             className="text-sm px-5 py-2 m-1 bg-gray-800 text-white rounded-md"
+            onChange={e => {
+              setYear(e.target.value)
+              setTeam(teamData[e.target.value])
+            }}
           >
             {Object.keys(teamData)
               .reverse()
               .map((year, i) => (
-                <option
-                  key={i}
-                  onClick={() => setYear(year)}
-                  className="text-sm"
-                >
+                <option key={i} className="text-sm" value={year}>
                   {year === "2018"
                     ? "Founders"
                     : year === "2019"
@@ -36,9 +37,8 @@ export default function Team() {
           </select>
         </div>
       </div>
-
       <div className="flex flex-wrap justify-evenly">
-        {teamData[year].map((member, i) => (
+        {team.map((member, i) => (
           <div key={i} className="flex-shrink-0 mt-5 w-72">
             <div className="relative flex flex-col items-center py-10">
               <img
