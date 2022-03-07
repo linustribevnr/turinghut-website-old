@@ -4,15 +4,18 @@ import "../styles/global.css"
 export default function NavLinks({ alignVertical }) {
   return (
     <div className={"flex" + (alignVertical && " flex-col space-y-1")}>
+      <a href="/" className="navbar-link">
+        Home
+      </a>
       <a href="/hall-of-fame" className="navbar-link">
         Hall of Fame
       </a>
-      <a href="/turing_cup.pdf" className="navbar-link" target="_blank">
+      <a href="/turingcup" className="navbar-link" target="_blank">
         Turing Cup
       </a>
-      <a href="/archive" className="navbar-link">
+      {/* <a href="/archive" className="navbar-link">
         Archive
-      </a>
+      </a> */}
     </div>
   )
 }

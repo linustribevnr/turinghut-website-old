@@ -1,39 +1,24 @@
 {
   "timelineData": [
     {
-      "title": "#include Python ICPC",
-      "year": 2019,
-      "image": ""
-    },
-    {
-      "title": "CodeFrenzy",
+      "title": "ICPC - Team Bleh",
       "year": 2017,
-      "image": ""
+      "image": "./timeline/icpc/2017A.jpg"
     },
     {
-      "title": "d0nt_$leep",
+      "title": "ICPC - Team Dont Slep",
+      "year": 2017,
+      "image": "./timeline/icpc/2017B.jpg"
+    },
+    {
+      "title": "ICPC - Team Dont Slepp",
       "year": 2018,
-      "image": ""
+    "image": "./timeline/icpc/2018.jpg"
     },
     {
-      "title": "Turing Cup",
-      "year": 2020,
-      "image": ""
-    },
-    {
-      "title": "Dish a thon",
-      "year": 2018,
-      "image": ""
-    },
-    {
-      "title": "Faculty Bootcamp",
+      "title": "ICPC - Team Hashincludepython",
       "year": 2019,
-      "image": ""
-    },
-    {
-      "title": "Turing Cup",
-      "year": 2019,
-      "image": ""
+      "image": "./timeline/icpc/2019.jpg"
     }
   ]
 }
