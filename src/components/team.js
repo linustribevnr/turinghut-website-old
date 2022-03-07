@@ -22,6 +22,7 @@ export default function Team() {
               setYear(e.target.value)
               setTeam(teamData[e.target.value])
             }}
+            value={year}
           >
             {Object.keys(teamData)
               .reverse()
