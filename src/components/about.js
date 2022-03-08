@@ -2,18 +2,18 @@ import React from "react"
 
 export default function About() {
   return (
-    <div className="px-4">
+    <div>
       <h1 className="text-4xl md:text-5xl p-3 m-5 my-18 text-center text-gray-600">
         About Us
       </h1>
-      <div className="row"></div>
       <div className="w-full flex-col flex-wrap items-center justify-evenly h-100">
         <div className="flex-about items-center justify-center">
-          <div className="w-72 mx-2">
+          <div className="w-72 flex justify-center">
             <img src="./vision.png" alt="vision" />
           </div>
-          <blockquote className="ml-5 font-normal text-gray-400 max-w-xl">
+          <blockquote className="mx-5 font-normal text-gray-400 max-w-2xl">
             <p>
+              <img src="./left-quote.png" className="inline mx-2" />
               Act as platform of “unity” to promote the `cause` of Computer
               Science. Develop a sense of belongingness amongst the pupils in
               the `impact` being created by Computer Science and it’s applied
@@ -24,13 +24,15 @@ export default function About() {
               research of and seek opportunities in Computer Science, with
               special regard given to Programming, as its members pave way for
               their career into the future.
+              <img src="./right-quote.png" className="inline mx-2" />
             </p>
           </blockquote>
         </div>
 
         <div className="flex-about-reverse items-center justify-center my-10">
-          <blockquote className="quote font-normal text-gray-400 max-w-xl">
+          <blockquote className="mx-5 quote font-normal text-gray-400 max-w-2xl">
             <p>
+              <img src="./left-quote.png" className="inline mx-2" />
               The club shall work towards promoting the greater cause of
               Computer Science in the community by Orienting freshmen to the
               nature of Computer Science, organizing events, Creating awareness
@@ -42,9 +44,10 @@ export default function About() {
               them in the underlying concepts, best coding practices and ethics;
               with an ultimate goal of promoting Competitive Programming under
               the motto `Programming as a Sport` and `The Art of Programming`.
+              <img src="./right-quote.png" className="inline mx-2" />
             </p>
           </blockquote>
-          <div className="w-72 mx-2">
+          <div className="w-72 mx-2 flex justify-center">
             <img src="./mission.png" alt="mission" />
           </div>
         </div>

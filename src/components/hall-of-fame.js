@@ -3,8 +3,12 @@ import data from "../assets/hall-of-fame.json"
 import HallOfFameTableComponent from "./hall-of-fame-table-component"
 
 export default function HallOfFame() {
-  const codechefData = data.codechefRankers
-  const codeforcesData = data.codeforcesRankers
+  const codechefData = data.codechefRankers.sort(
+    (a, b) => b.highestRating - a.highestRating
+  )
+  const codeforcesData = data.codeforcesRankers.sort(
+    (a, b) => b.highestRating - a.highestRating
+  )
   return (
     <div className="pt-12">
       <h1 className="text-4xl md:text-5xl p-3 m-6 mt-18 text-center text-gray-600">
