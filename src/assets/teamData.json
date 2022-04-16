@@ -152,7 +152,7 @@
         "link": "https://www.linkedin.com/in/venu-vennu-32466b1b3/"
       }
     ],
-    "2024" : [
+    "2024": [
       {
         "name": "Gangishetty Manideep",
         "image": "./team/2024/Manideep.jpg",
@@ -164,84 +164,84 @@
         "link": "https://www.linkedin.com/in/gautham-mallipeddi-80b2b4214"
       },
       {
+        "name": "Sanganbhatla Suraj",
+        "image": "./team/2024/Suraj.jpg",
+        "link": "https://www.linkedin.com/in/iamssuraj/"
+      },
+      {
+        "name": "Madhavi batthala",
+        "image": "./team/2024/Madhavi.jpg",
+        "link": "https://www.linkedin.com/in/madhavi-batthala-36583b204/"
+      },
+      {
+        "name": "Saket Palarapu",
+        "image": "./team/2024/Saket.jpg",
+        "link": "https://www.linkedin.com/in/saket-palarapu-270652204"
+      },
+      {
+        "name": "K.Satwik Reddy",
+        "image": "./team/2024/Satwik.jpeg",
+        "link": "https://www.linkedin.com/in/k-satwik-reddy-2b996a200/"
+      },
+      {
+        "name": "T. Sai Sarath",
+        "image": "./team/2024/Sarath.jpg",
+        "link": "https://www.linkedin.com/in/sarath-tenneti-8911a7225/"
+      },
+      {
         "name": "Pranav Punnamaraju",
         "image": "./team/2024/Pranav.jpeg",
         "link": "https://www.linkedin.com/in/pranav-punnamaraju-340951225/"
       },
       {
-        "name" : "Madhavi batthala",
-        "image":"./team/2024/Madhavi.jpg",
-        "link":"https://www.linkedin.com/in/madhavi-batthala-36583b204/"
+        "name": "K.K.Sai Harshitha",
+        "image": "./team/2024/Harshitha.jpg",
+        "link": "https://www.linkedin.com/in/kambhampati-kodanda-sai-harshitha-319936216/"
       },
       {
-        "name" : "Saket Palarapu",
-        "image":"./team/2024/Saket.jpg",
-        "link":"https://www.linkedin.com/in/saket-palarapu-270652204"
+        "name": "Medipally Abinay",
+        "image": "./team/2024/Abhinay.jpg",
+        "link": "https://www.linkedin.com/in/medipally-abinay-897a84225"
       },
       {
-        "name" : "K.Satwik Reddy",
-        "image":"./team/2024/Satwik.jpeg",
-        "link":"https://www.linkedin.com/in/k-satwik-reddy-2b996a200/"
+        "name": "KARRE HANISH",
+        "image": "./team/2024/Hanish.jpg",
+        "link": "https://www.linkedin.com/in/karre-hanish-4692b7227"
       },
       {
-        "name" : "T. Sai Sarath",
-        "image":"./team/2024/Sarath.jpg",
-        "link":"https://www.linkedin.com/in/sarath-tenneti-8911a7225/"
+        "name": "Naram Tapan Ganesh",
+        "image": "./team/2024/Tapan.jpg",
+        "link": "http://linkedin.com/in/tapan-ganesh-naram"
       },
       {
-        "name" : "Sanganbhatla Suraj",
-        "image":"./team/2024/Suraj.jpg",
-        "link":"https://www.linkedin.com/in/iamssuraj/"
+        "name": "S.Rishi Kumar",
+        "image": "./team/2024/Rishi.jpg",
+        "link": "https://www.linkedin.com/in/rishi-kumar-b89508222/"
       },
       {
-        "name" : "K.K.Sai Harshitha",
-        "image":"./team/2024/Harshitha.jpg",
-        "link":"https://www.linkedin.com/in/kambhampati-kodanda-sai-harshitha-319936216/"
+        "name": "EDDI KEERTHANA",
+        "image": "./team/2024/Keerthana.jpg",
+        "link": "https://www.linkedin.com/in/eddi-keerthana-a07512226"
       },
       {
-        "name" : "Medipally Abinay",
-        "image":"./team/2024/Abhinay.jpg",
-        "link":"https://www.linkedin.com/in/medipally-abinay-897a84225"
+        "name": "Srilasya Kompella",
+        "image": "./team/2024/Srilasya.jpg",
+        "link": "https://www.linkedin.com/in/srilasya-kompella-957b28222/"
       },
       {
-        "name" : "KARRE HANISH",
-        "image":"./team/2024/Hanish.jpg",
-        "link":"https://www.linkedin.com/in/karre-hanish-4692b7227"
+        "name": "Katakam Ashritha",
+        "image": "./team/2024/Ashritha.jpg",
+        "link": "https://www.linkedin.com/in/ashritha-katakam-081968212/"
       },
       {
-        "name" : "Naram Tapan Ganesh",
-        "image":"./team/2024/Tapan.jpg",
-        "link":"http://linkedin.com/in/tapan-ganesh-naram"
+        "name": "Guru Bhargava",
+        "image": "./team/2024/Bhargava.jpeg",
+        "link": "https://www.linkedin.com/in/guru-bhargava-4ab970200/"
       },
       {
-        "name" : "S.Rishi Kumar",
-        "image":"./team/2024/Rishi.jpg",
-        "link":"https://www.linkedin.com/in/rishi-kumar-b89508222/"
-      },
-      {
-        "name" : "EDDI KEERTHANA",
-        "image":"./team/2024/Keerthana.jpg",
-        "link":"https://www.linkedin.com/in/eddi-keerthana-a07512226"
-      },
-      {
-        "name" : "Srilasya Kompella",
-        "image":"./team/2024/Srilasya.jpg",
-        "link":"https://www.linkedin.com/in/srilasya-kompella-957b28222/"
-      },
-      {
-        "name" : "Katakam Ashritha",
-        "image":"./team/2024/Ashritha.jpg",
-        "link":"https://www.linkedin.com/in/ashritha-katakam-081968212/"
-      },
-      {
-        "name" : "Guru Bhargava",
-        "image":"./team/2024/Bhargava.jpeg",
-        "link":"https://www.linkedin.com/in/guru-bhargava-4ab970200/"
-      },
-      {
-        "name" : "MEESALA RITHIN",
-        "image":"./team/2024/Rithin.jpg",
-        "link":"https://www.linkedin.com/in/rithin-meesala-8511a3228"
+        "name": "MEESALA RITHIN",
+        "image": "./team/2024/Rithin.jpg",
+        "link": "https://www.linkedin.com/in/rithin-meesala-8511a3228"
       }
     ]
   }
