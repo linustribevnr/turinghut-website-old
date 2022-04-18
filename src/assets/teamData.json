@@ -1,6 +1,6 @@
 {
   "teamData": {
-    "2018": [
+    "2016": [
       {
         "name": "Prateek Varma",
         "image": "./team/2018/prateek.jpg",
@@ -27,7 +27,7 @@
         "link": "https://reactjs.org/docs/hooks-effect.html"
       }
     ],
-    "2019": [
+    "2017": [
       {
         "name": "Priya Bhandari",
         "image": "./team/2019/priya_2018.jpg",
@@ -49,14 +49,14 @@
         "link": "https://www.linkedin.com/in/siddarth-jayakumar/"
       }
     ],
-    "2020": [
+    "2018": [
       {
         "name": "Shoeb Moin",
         "image": "./team/2020/shoeb_2019.jpg",
         "link": "https://www.linkedin.com/in/sky-scraper/"
       }
     ],
-    "2021": [
+    "2019": [
       {
         "name": "Kovid Gajavelly",
         "image": "./team/2021/kovid_2020.jpg",
@@ -68,7 +68,7 @@
         "link": "https://www.linkedin.com/in/vineeth-pulluri-1a430714b/"
       }
     ],
-    "2022": [
+    "2020": [
       {
         "name": "Gnana Deepak",
         "image": "./team/2022/deepak_2021.jpg",
@@ -90,7 +90,7 @@
         "link": "https://www.linkedin.com/in/sindhuja-ponnuru-a5302617a/"
       }
     ],
-    "2023": [
+    "2021": [
       {
         "name": "K.H.S.Supriya",
         "image": "./team/2023/supriya.jpg",
