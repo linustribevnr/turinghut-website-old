@@ -5,7 +5,7 @@ import "../styles/global.css"
 export default function Team() {
   const { teamData } = data
   const [year, setYear] = useState(Object.keys(teamData).reverse()[1])
-  const [team, setTeam] = useState(teamData["2022"])
+  const [team, setTeam] = useState(teamData[year])
 
   return (
     <div className="w-full">
