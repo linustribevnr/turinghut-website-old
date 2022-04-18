@@ -5,7 +5,11 @@ import "../styles/global.css"
 export default function Team() {
   const { teamData } = data
   const [year, setYear] = useState(Object.keys(teamData).reverse()[1])
+<<<<<<< HEAD
   const [team, setTeam] = useState(teamData[year])
+=======
+  const [team, setTeam] = useState(teamData["2020"])
+>>>>>>> b3e5730 (decremented years by 2 for filtering team details)
 
   return (
     <div className="w-full">
@@ -28,9 +32,9 @@ export default function Team() {
               .reverse()
               .map((year, i) => (
                 <option key={i} className="text-sm" value={year}>
-                  {year === "2018"
+                  {year === "2016"
                     ? "Founders"
-                    : year === "2019"
+                    : year === "2017"
                     ? "CoFounders"
                     : year}
                 </option>
@@ -50,7 +54,7 @@ export default function Team() {
               <h3 className="m-2 text-xl font-medium text-gray-600">
                 {member.name}
               </h3>
-              {year !== "2018" ? (
+              {year !== "2016" ? (
                 <a
                   className="top-44 absolute p-2.5 bg-white rounded-full"
                   href={member.link}
