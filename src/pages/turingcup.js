@@ -1,14 +1,9 @@
 import React from "react"
-
+import Roadmap from "../components/roadmap"
 export default function App() {
   return (
-    <div className="iframe-container">
-      <iframe
-        className="iframe"
-        title="Turing Cup"
-        src="/turing_cup.pdf"
-        frameborder="0"
-      ></iframe>
+    <div>
+      <Roadmap/>
     </div>
   )
 }
