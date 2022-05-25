@@ -4,9 +4,9 @@ function roadmap() {
 
  return (
 
-  <div className='h-300v sm:h-300v md:h-300v lg:h-150v xl:h-100v bg-secondary items-center'>
+  <div className='h-300v sm:h-300v md:h-300v lg:h-150v xl:h-100v bg-secondary items-center pt-12'>
     {/*header*/}
-    <div className='font-sans text-2xl tracking-wide font-bold text-center text-white pt-12'>
+    <div className='font-sans text-2xl tracking-wide font-bold text-center text-white pt-8 sm:pt-12 md:pt-12'>
         ROADMAP
     </div>
     {/*container*/}
