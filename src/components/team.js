@@ -28,9 +28,9 @@ export default function Team() {
               .reverse()
               .map((year, i) => (
                 <option key={i} className="text-sm" value={year}>
-                  {year === "2018"
+                  {year === "2016"
                     ? "Founders"
-                    : year === "2019"
+                    : year === "2017"
                     ? "CoFounders"
                     : year}
                 </option>
@@ -50,7 +50,7 @@ export default function Team() {
               <h3 className="m-2 text-xl font-medium text-gray-600">
                 {member.name}
               </h3>
-              {year !== "2018" ? (
+              {year !== "2016" ? (
                 <a
                   className="top-44 absolute p-2.5 bg-white rounded-full"
                   href={member.link}
