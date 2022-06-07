@@ -2,7 +2,7 @@ import React from 'react'
 
 function AwardsInfo() {
   return (
-    <div className='bg-secondary h-100v'>
+    <div className='bg-secondary h-200v -mt-60 pb-10'>
         <center>
         <div className='text-white text-2xl'>
             <h1>What's in it for students ?</h1>
