@@ -2,7 +2,7 @@ import React from "react"
 
 export default function AboutTuringCup() {
   return (
-    <div className="pt-14 bg-secondary h-100v">
+    <div className="pt-14 bg-secondary h-200v sm:h-200v">
       <div className="text-white">
         <div className="text-4xl md:text-5xl p-3 text-center text-white">
           <h1 className="p-2">Turing Cup</h1>
