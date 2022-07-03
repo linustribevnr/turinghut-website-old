@@ -12,7 +12,7 @@ function roadmap() {
     {/*container*/}
     <div className='container mx-auto grid lg:grid-cols-11 xl-grid-cols-11 md:grid-cols-3 sm:grid-cols-3 grid-cols-3 gap-0 p-12'>
         {/*round-1*/}
-        <div className='rounded-md bg-white text-center p-5 col-span-3 mb-3'>
+        <div className='rounded-md bg-white text-center p-5 col-span-3'>
             {/*header*/}
             <div className='header bg-teal-100 p-4'>
                 <div className = 'font-sans font-bold text-teal-600 text-xl'>Round-1</div>
@@ -28,7 +28,7 @@ function roadmap() {
             <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
         </svg>
         {/*round-2*/}
-        <div className='rounded-md bg-white text-center p-5 col-span-3 mb-3'>
+        <div className='rounded-md bg-white text-center p-5 col-span-3'>
             {/*header*/}
             <div className='header bg-teal-100 p-6'>
                 <div className='font-sans font-bold text-teal-600 text-xl'>Round-2</div>
@@ -44,7 +44,7 @@ function roadmap() {
             <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
         </svg>
         {/*round-3*/}
-        <div className='card rounded-md border-black shadow-lg bg-white text-center p-5 col-span-3 mb-3'>
+        <div className='card rounded-md border-black shadow-lg bg-white text-center p-5 col-span-3'>
             {/*header*/}
             <div className='header bg-teal-100 p-6'>
                 <div className='font-sans font-bold text-teal-600 text-xl'>Round-3</div>
