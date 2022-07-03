@@ -247,6 +247,11 @@
         "name": "MEESALA RITHIN",
         "image": "./team/2024/Rithin.jpg",
         "link": "https://www.linkedin.com/in/rithin-meesala-8511a3228"
+      },
+      {
+        "name" : "Tejeswara Murthy",
+        "image" : "./team/2024/Tejeswara.jpg",
+        "link" : "https://www.linkedin.com/in/tejeswara-murthy-palwadi-83b718204/"
       }
     ]
   }
