@@ -5,7 +5,7 @@ function AwardsInfo() {
     <div className='bg-secondary h-200v pb-10 align-middle'>
         <center>
         <div className='text-white text-2xl'>
-            <h2><b>What's in it for students?</b></h2>
+            <h2>What's in it for students?</h2>
         </div>
         <div className='bg-emerald-900 bg-opacity-50 mt-5 rounded-lg mx-10'>
             <div className='px-10 pt-4 text-white text-lg text-left'>
